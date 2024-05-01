@@ -20,7 +20,7 @@ const PokeInfo = () => {
 
     <div >
       <header>
-        <img src="public\header__img.PNG" alt="headerimg" />
+        <img src="../../header__img.PNG" alt="headerimg" />
       </header>
       <div className='pokeinfo'>
         <section className='pokeinfo__container'>
@@ -50,7 +50,7 @@ const PokeInfo = () => {
             </article>
             <article>
               <h3>Skills</h3>
-              <ul>
+              <ul className='pokeinfo__skill'>
                 {
                   pokemon?.abilities.map(skill => (
                     <li key={skill.ability.url}>{skill.ability.name}</li>
