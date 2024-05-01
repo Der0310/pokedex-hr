@@ -1,0 +1,35 @@
+.homepage__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homepage__img {
+    display: flex;
+}
+
+.homepage__form {
+    padding-top: 20px;
+}
+
+.homepage__greeting {
+    color: red;
+}
+
+.homepage__btn {
+    border: solid 2px red;
+    background-color: red;
+    color: white;
+    padding: 0 5px
+}
+
+footer img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}

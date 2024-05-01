@@ -1,0 +1,11 @@
+
+
+.option__select {
+    background-color: aqua;
+color: red;
+}
+
+.option__select:hover {
+   
+   color: red;
+}
