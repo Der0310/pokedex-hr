@@ -12,7 +12,7 @@ header {
 
 .pokeinfo__container {
     background-color: #FEFEFE;
-    width: auto;
+    width: 100%;
     border:1px solid #DEDEDE;
     border-radius: 15px;
     display: flex;
@@ -32,7 +32,7 @@ header {
 .pokeinfo__img {
     width: 175px;
     position:absolute ;
-    top: 35px;
+    top: 75px;
     margin-top: 20px;
     
     

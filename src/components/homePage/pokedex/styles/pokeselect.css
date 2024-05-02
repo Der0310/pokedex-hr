@@ -1,8 +1,7 @@
 
 
 .option__select {
-    background-color: aqua;
-color: red;
+    width:400px
 }
 
 .option__select:hover {

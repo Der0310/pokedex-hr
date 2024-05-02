@@ -71,7 +71,7 @@ const Pokedex = () => {
       <header>
         <img src="../../header__img.PNG" alt="headerimg" />
       </header>
-      <h2 className='pokedex__title'><span>Welcome {trainer}, </span>  here you can find your favorite pokemon</h2>
+      <h2 className='pokedex__title'><span>Welcome {trainer.charAt(0).toLocaleUpperCase()+trainer.slice(1)}, </span>  here you can find your favorite pokemon</h2>
       <div className='pokedex__form'>
         <form onSubmit={handleSubmit}>
           <input ref={textInput} type="text" />

@@ -21,7 +21,7 @@ const HomePage = () => {
   }
 
   return (
-    <div>
+    <div className='homepage'>
       <div className='homepage__container'>
         <div className='homepage__img'>
           <img src="../../pokedex_HomePage.PNG" alt="pokedex__img" />

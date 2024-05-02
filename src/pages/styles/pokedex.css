@@ -16,10 +16,8 @@ header img {
 .pokedex__form {
     width: 100%;
     display:flex;
-    justify-content:center;
-    align-content: baseline;
+    justify-content:space-evenly;
     gap: 10px;
-   
 }
 
 .pokedex__container {
